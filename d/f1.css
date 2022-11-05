@@ -1,0 +1,33 @@
+body{
+    background-color: aqua;
+    align-items: center;
+    padding-top: 40px;
+    padding-right: 145px;
+    margin-right: 180px;
+    padding-left: 130px;
+
+}
+fieldset{
+    border-color: black;
+    border-style: dashed;
+    
+}
+form{
+    background-color:aliceblue;
+    
+}
+#fn
+{
+    border-color: transparent;
+    font-size: 14px;
+    
+}
+button{
+    color: #eee;
+}
+#bu
+{
+    color: blue;
+    background-color: bisque;
+    text-align: center;
+}

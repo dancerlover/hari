@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link href="f1.css" rel="stylesheet">
+    
+</head>
+<body>
+    <form id="form"  >
+        <fieldset id="input-contains">
+            <legend>Form</legend>
+        Firstname:<input type="text" id="fn" placeholder="Fill your name" name="fname" >
+       
+        <br>
+        <br>
+        Lastname:<input type="text" id="fn" placeholder="Fill your Lastname" name="lname">
+        <br>
+        <br>Phone number:<input type="text" id="fn" placeholder="Phone no" name="pno">
+        <br><br>Email:<input type="email"  id="fn" placeholder="email-id" name="em">
+       <br> <br>Country:
+        <select>
+            <option>Select</option>
+            <option>India</option>
+            <option>europe</option>
+            <option>asia</option>
+        </select>
+       <br>
+       <br> Role:
+        <select>
+            <option>Student</option>
+            <option>Admin</option>
+            <option>Faculty</option>
+        </select>
+       <br>
+       <br> Date of Birth
+        <input type="text" placeholder="dd-mm-yyyy"  id="fn" name="dob">
+        <br>
+        <br>
+        New password:
+        <input type="password"  id="fn"name="npass">
+        <br>
+        <br>
+        Confirm password:
+        <input type="password" id="fn" name="cpass">
+        <br>
+        <br>
+        <input type="checkbox"><i>yes,my details are correct</i>
+
+
+
+        </fieldset>
+    </form>
+    <br>
+    <div id="submit">
+        <button id="bu"  onclick="return validate()"">Proceed</button>
+    </div>
+    <script src="f2.js" ></script>
+    
+</body>
+</html>
